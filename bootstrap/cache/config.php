@@ -3,9 +3,11 @@
   array (
     'name' => 'Laravel',
     'env' => 'local',
+    'version' => '1.0.0',
     'debug' => true,
     'url' => 'http://localhost',
     'asset_url' => NULL,
+    'force_ssl' => false,
     'timezone' => 'UTC',
     'locale' => 'en',
     'fallback_locale' => 'en',
@@ -482,8 +484,8 @@
         'host' => 'smtp.gmail.com',
         'port' => '587',
         'encryption' => 'tls',
-        'username' => 'longtran14982@gmail.com',
-        'password' => 'long1498!',
+        'username' => '',
+        'password' => '',
         'timeout' => NULL,
         'auth_mode' => NULL,
       ),
@@ -525,7 +527,7 @@
     ),
     'from' => 
     array (
-      'address' => 'longtran14982@gmail.com',
+      'address' => '',
       'name' => 'Laravel',
     ),
     'markdown' => 
